@@ -1,0 +1,18 @@
+Cara mengisi data spinner melalui string-array:
+1. Tambahkan komponen spinner pada layout
+2. Buka folder values >> strings.xml
+3. Isikan data dengan tag string-array, seperti contoh berikut:
+   <string-array name="spinnerMenuArray">
+        <item>Kopi Susu Gula Aren</item>
+        <item>Kopi Americano</item>
+        <item>Kopi Latte</item>
+        <item>Kopi ButterScotch</item>
+        <item>Kopi Caramel Macchiato</item>
+    </string-array>
+4. Update syntax komponen Spinner, menjadi seperti ini:
+	<Spinner
+          android:id="@+id/spinnerMenu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:entries="@array/spinnerMenuArray"/>
+

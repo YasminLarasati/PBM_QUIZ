@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:id="@+id/cardView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgView"
+            android:src="@drawable/ahmad_dahlan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNama"
+            android:layout_toEndOf="@+id/imgView"
+            android:text="Nama Pahlawan"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDesk"
+            android:layout_toEndOf="@+id/imgView"
+            android:layout_below="@+id/textNama"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Deskripsi"
+            android:ellipsize="end"
+            android:maxLines="3"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Bahan Latihan UTS/IntentLatihanPraUTS/Intent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PBM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PBM_INTENT_PUTEXTRA_PARCELABLE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PBM_Intent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PBM_KTP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PBM_Q1/PBM_Q1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PBM_TUGAS_BMI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PBM_TUGAS_INTENT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UTS_PBM" vcs="Git" />
+  </component>
+</project>
