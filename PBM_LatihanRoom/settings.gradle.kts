@@ -19,7 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "QUIZ_Pertemuan12"
-include(":app")
+rootProject.name = "PBM_LatihanRoom"
 include(":app")
  
